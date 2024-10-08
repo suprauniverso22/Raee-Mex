@@ -10,35 +10,31 @@
             color: #fff;
             font-family: Arial, sans-serif;
             display: flex;
-            justify-content: center;
+            flex-direction: column; /* Cambia a columna para apilar los elementos */
             align-items: center;
             height: 100vh;
             margin: 0;
         }
 
-        h1 {
-            font-size: 3em;
+        .logo-container {
+            text-align: center; /* Centra el contenido dentro del contenedor */
         }
 
         .logo-pequeno {
-            width: 50px;
-            height: auto;
-            position: absolute;
-            top: 10px;
-            right: 10px;
+            /* ... tus estilos para el logo pequeño */
         }
 
         .logo-mediano {
-            display: block;
-            margin: 0 auto;
-            width: 200px; /* Ajusta el ancho según tu preferencia */
-            height: auto;
+            /* ... tus estilos para el logo mediano */
         }
     </style>
 </head>
 <body>
-    <img src="https://raw.githubusercontent.com/suprauniverso22/Raee-Mex/72e1ec1637fd1c3cd7b575f1c8d8eab539e8b3e3/1svg.svg" alt="Logo pequeño" class="logo-pequeno">
-    <img src="https://raw.githubusercontent.com/suprauniverso22/Raee-Mex/72e1ec1637fd1c3cd7b575f1c8d8eab539e8b3e3/1svg.svg" alt="Logo mediano" class="logo-mediano">
-    <h1>RAEE MEX</h1>
+    <div class="logo-container">
+        <img src="https://raw.githubusercontent.com/suprauniverso22/Raee-Mex/72e1ec1637fd1c3cd7b575f1c8d8eab539e8b3e3/1svg.svg" alt="Logo mediano" class="logo-mediano">
+    </div>
+    <div class="logo-container">
+        <h1>RAEE MEX</h1>
+    </div>
 </body>
 </html>
