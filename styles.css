@@ -1,0 +1,10 @@
+body {
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 100%;
+}
